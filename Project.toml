@@ -2,3 +2,6 @@ name = "Gradient"
 uuid = "1d3ddce8-b809-48e5-8697-14f5083f69b2"
 authors = ["Christian <hacs@zhaw.ch>"]
 version = "0.1.0"
+
+[deps]
+FLOWMath = "6cb5d3fb-0fe8-4cc2-bd89-9fe0b19a99d3"
