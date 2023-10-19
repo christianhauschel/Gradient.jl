@@ -1,0 +1,4 @@
+name = "Gradient"
+uuid = "1d3ddce8-b809-48e5-8697-14f5083f69b2"
+authors = ["Christian <hacs@zhaw.ch>"]
+version = "0.1.0"
