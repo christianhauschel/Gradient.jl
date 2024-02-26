@@ -7,11 +7,11 @@ dydx = 2.0 .* x
 
 dydx_approx = gradient(x, y)
 
-using PyPlot, PyCall
-pplt = pyimport("proplot")
-pplt.close("all")
+# using PyPlot, PyCall
+# pplt = pyimport("proplot")
+# pplt.close("all")
 
-fig, ax = pplt.subplots()
-ax[1].plot(x, dydx, "-", label="dydx exact")
-ax[1].plot(x, dydx_approx, ".", label="dydx approx")
-fig
+# fig, ax = pplt.subplots()
+# ax[1].plot(x, dydx, "-", label="dydx exact")
+# ax[1].plot(x, dydx_approx, ".", label="dydx approx")
+# fig
